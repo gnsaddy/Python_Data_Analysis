@@ -20,3 +20,8 @@ registration = [True,False,False,True,True,False]
 
 ser2 = pd.Series(registration)
 print(ser2)
+
+# accessing elements
+
+print(ser[:2])
+print(ser[1])
